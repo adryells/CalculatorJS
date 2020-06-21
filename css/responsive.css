@@ -1,0 +1,110 @@
+
+@media  only screen and (max-width: 320px){
+    h1{
+        font-size: 50px;
+    }
+    input{
+        width: 80%;
+        font-size: 50px;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+    #numbers{
+        margin-top: 30px;
+    }
+    #numbers button {
+        padding: 25px 45px;
+        font-size: 40px;
+        margin: 5px;
+    }
+    #buttons button{
+        padding: 20px 40px;
+        font-size: 20px;
+        width: 60%;
+        margin: 5px 25%;
+    }
+}
+@media only screen and (min-width: 375px){
+    h1{
+        font-size: 50px;
+    }
+    input{
+        width: 80%;
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+    #numbers{
+        margin-top: 20px;
+        
+    }
+    #numbers button {
+        padding: 20px 40px;
+        font-size: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #buttons button{
+        padding: 20px 40px;
+        font-size: 20px;
+        margin: 5px 25%;
+        width: 100%;
+
+    }
+}
+
+@media only screen and (min-width: 375px){
+    h1{
+        font-size: 50px;
+    }
+    input{
+        width: 80%;
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+    #numbers{
+        margin-top: 20px;
+        
+    }
+    #numbers button {
+        padding: 20px 40px;
+        font-size: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #buttons button{
+        padding: 20px 40px;
+        font-size: 20px;
+        margin: 5px 25%;
+        width: 50%;
+
+    }
+}
+@media only screen and (min-width: 768px){
+    h1{
+        font-size: 50px;
+    }
+    input{
+        width: 80%;
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+    #numbers{
+        margin-top: 20px;
+        
+    }
+    #numbers button {
+        padding: 20px 40px;
+        font-size: 25px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #buttons button{
+        padding: 20px 40px;
+        font-size: 20px;
+        width: 30%;
+        margin: 5px 25%;
+    }
+}

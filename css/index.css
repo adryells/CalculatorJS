@@ -1,29 +1,69 @@
+@import url("./responsive.css");
 *{
+	box-sizing: border-box;
 	margin: 0;
 	text-align: center;
 }
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 body{
-	background-image: url('../fundo.jpg');
+	font-family: "Ubuntu", sans-serif;
+	background-color: #181C4D;
 }
-@font-face {
-    font-weight: normal;
-    font-style: oblique;
+h1{
+	color: #878FE6;
 }
-#numbers{
-padding: 12px;
+button{
+	border: 0;
+	transition: .4s;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 600;
+	border-radius: 10px;
 }
-#interface{
+body section {
 	margin-left: 345px;
-	background-color: gray;
 	width: 600px;
 	max-width: 800px;
 	height: 400px;
-	border-style: solid;
-	border-radius: 7px;
+	margin: 0 auto;
+	border-radius: 10px;
 }
-.number{
-padding: 15px;
-margin: 3px;
-border-style: solid;
-border-radius: 5px;
+body form input{
+	padding: 5px;
+	background: transparent;
+	outline: none;
+	border: 0;
+	border-bottom: 4px solid #2895E5;
+	color: #2895E5;
+}
+body form  #buttons{
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+body form #numbers button{
+	cursor: pointer;
+	outline: none;
+	
+	background-color: #878FE6;
+	color: #181C4D;
+}
+body form #buttons button{
+	cursor: pointer;
+	outline: none;
+	background-color: #2895E5;
+	color: #181C4D;
+}
+body form #numbers button:hover{
+	cursor: pointer;
+	outline: none;
+	background-color: #2896e59a;
+	color: #181C4D;
+}
+body form #buttons button:hover{
+	cursor: pointer;
+	outline: none;
+	background-color: #2896e5b4;
+	color: #181C4D;
 }

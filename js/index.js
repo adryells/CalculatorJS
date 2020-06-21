@@ -4,9 +4,9 @@ var containerNumbers = document.getElementById("numbers")
 
 //texto dos botões
 var textoBotaoSomar = document.createTextNode("Somar")
-var textoBotaoSubtrair = document.createTextNode("subtrair")
-var textoBotaoDividir = document.createTextNode("dividir")
-var textoBotaoMultiplicar = document.createTextNode("multiplicar")
+var textoBotaoSubtrair = document.createTextNode("Subtrair")
+var textoBotaoDividir = document.createTextNode("Dividir")
+var textoBotaoMultiplicar = document.createTextNode("Multiplicar")
 var textoBotaoLimpar = document.createTextNode("Limpar")
 var textoCalcular = document.createTextNode("Calcular")
 var textos = [textoBotaoMultiplicar, textoBotaoSomar, textoBotaoDividir, textoBotaoSubtrair, textoBotaoLimpar, textoCalcular]
@@ -60,13 +60,13 @@ function Calcular(){
 function Somar(){
 	document.form.Calculo.value += "+"
 }
-function subtrair(){
+function Subtrair(){
 	document.form.Calculo.value += "-"
 }
-function dividir(){
+function Dividir(){
 	document.form.Calculo.value += "/"
 }
-function multiplicar(){
+function Multiplicar(){
 	document.form.Calculo.value += "*"
 }
 
